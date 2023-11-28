@@ -415,17 +415,53 @@
     
     }
     /*Фотографии*/
-    #__1 {
+   #__1 {
         margin-left: 1500px;
         margin-top: 70px;
-        margin-bottom: 40px;
+        margin-bottom: 20px;
+        animation: infinite 20s anim_1;
     }
     #__2 {
         margin-left: 1500px;
-        margin-top: 380px;
+        margin-top: 310px;
+        animation: infinite 20s anim_2;
     }
     #__3 {
         margin-left: 1500px;
-        margin-top: 700px;
+        margin-top: 550px;
+        animation: infinite 20s anim_3;
+    }
+    @keyframes anim_1 {
+        0% {
+            content:url(фото_1.jpeg)
+        }
+        50% {
+            content:url(фото_2.jpeg) 
+        }
+        100% {
+            content:url(фото_3.jpeg)   
+        }
+    }
+    @keyframes anim_2 {
+        0% {
+            content:url(фото_4.jpeg)
+        }
+        50% {
+            content:url(фото_5.jpeg) 
+        }
+        100% {
+            content:url(фото_6\ .jpeg)   
+        }   
+    }
+    @keyframes anim_3 {
+        0% {
+            content:url(фото_7.jpeg)
+        }
+        50% {
+            content:url(фото_3.jpeg) 
+        }
+        100% {
+            content:url(фото_1.jpeg)   
+        }   
     }
 }
