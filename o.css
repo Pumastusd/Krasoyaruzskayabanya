@@ -58,3 +58,65 @@ th,td {
 table img {
     width: 50px;
 }
+@media screen and (min-width: 2001px) {
+        #logo {
+            width: 100px;
+            height: 80px;
+            margin-top: 70px;
+            margin-left: 177px;
+            margin-right: 130px;
+            position: relative;
+            position: absolute;
+           
+        }
+        .a_header {
+            padding-top: 0%;
+            color:white;
+            font-size: 25px;
+            text-decoration: none;
+            margin-left: 340px;
+            margin-top: 84px;
+            position: absolute;
+        }
+        
+        #con {
+            margin-left: 780px;
+            border-bottom: 2px orange solid;
+        }
+        input {
+            position: absolute;
+            margin-top: 87px;
+            margin-left: 1000px;
+        }
+        #info {
+            margin-left: 580px;
+        }
+        html {
+            background-color: rgb(54, 51, 54)
+        }
+        .a_header:hover {
+            font-size: 26px;
+            color: rgb(184, 150, 95);
+        }
+        }
+        table {
+            position: absolute;
+            margin-top: 200px;
+            margin-left: 20%;
+        }
+        th,td {
+            border-radius: 25px;
+            border: orange solid;
+            min-width: 100px;
+            min-height: 20px;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            font-size: 30px;
+            text-align: center;
+        }
+        table img {
+            width: 50px;
+        } 
+
+
