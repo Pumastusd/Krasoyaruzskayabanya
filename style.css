@@ -1,0 +1,431 @@
+@media screen and (max-width: 2000px) {
+    html {
+        background-color: rgb(54, 51, 54)
+    }
+    #logo {
+        width: 100px;
+        height: 80px;
+        margin-top: 70px;
+        margin-left: 177px;
+        margin-right: 130px;
+        position: relative;
+        position: absolute;
+       
+    }
+    .a_header {
+        padding-top: 0%;
+        color:white;
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 340px;
+        margin-top: 84px;
+        position: absolute;
+        
+        
+    }
+    #info {
+        margin-left: 580px;
+    }
+    #main {
+        border-bottom: 2px orange solid;
+    }
+    #con {
+        margin-left: 780px;
+    }
+    input {
+        position: absolute;
+        margin-top: 87px;
+        margin-left: 1000px;
+    }
+    .h {
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        position: absolute;
+        white-space: nowrap;
+    }
+    #_1 {
+    color: rgb(230, 216, 216);
+    margin-top: 254px;
+    margin-left: 250px;
+    }
+    #_2 {
+        color: orange;
+        margin-top: 354px;
+        margin-left: 235px;
+    }
+    #_3 {
+        color: rgb(230, 216, 216);
+        margin-top: 454px;
+        margin-left: 210px;
+    }
+    #_4 {
+        font-size: 40px;
+        color: rgb(128, 133, 133);
+        margin-top: 544px;
+        margin-left: 180px;
+    }
+    .photos {
+        width: 300px;
+        height: 200px;
+        position: absolute;
+        border: 4px orange solid;
+    }
+    .a_header:hover {
+        font-size: 26px;
+        color: rgb(184, 150, 95);
+    
+    }
+    /*Фотографии*/
+    #__1 {
+        margin-left: 1500px;
+        margin-top: 70px;
+        margin-bottom: 20px;
+        animation: infinite 20s anim_1;
+    }
+    #__2 {
+        margin-left: 1500px;
+        margin-top: 310px;
+        animation: infinite 20s anim_2;
+    }
+    #__3 {
+        margin-left: 1500px;
+        margin-top: 550px;
+        animation: infinite 20s anim_3;
+    }
+    @keyframes anim_1 {
+        0% {
+            content:url(фото_1.jpeg)
+        }
+        50% {
+            content:url(фото_2.jpeg) 
+        }
+        100% {
+            content:url(фото_3.jpeg)   
+        }
+    }
+    @keyframes anim_2 {
+        0% {
+            content:url(фото_4.jpeg)
+        }
+        50% {
+            content:url(фото_5.jpeg) 
+        }
+        100% {
+            content:url(фото_6\ .jpeg)   
+        }   
+    }
+    @keyframes anim_3 {
+        0% {
+            content:url(фото_7.jpeg)
+        }
+        50% {
+            content:url(фото_3.jpeg) 
+        }
+        100% {
+            content:url(фото_1.jpeg)   
+        }   
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .photos {
+        width: 200px;
+        height: 100px;
+        position: absolute;
+        border: 3px orange solid;
+    }
+    #__1 {
+        margin-left: 1100px;
+        margin-top: 140px;
+        margin-bottom: 20px;
+    }
+    #__2 {
+        margin-left: 1100px;
+        margin-top: 275px;
+    }
+    #__3 {
+        margin-left: 1100px;
+        margin-top: 405px;
+    }
+    #_1 {
+        color: rgb(230, 216, 216);
+        margin-top: 204px;
+        margin-left: 170px;
+        }
+        #_2 {
+            color: orange;
+            margin-top: 324px;
+            margin-left: 130px;
+        }
+        #_3 {
+            color: rgb(230, 216, 216);
+            margin-top: 434px;
+            margin-left: 120px;
+        }
+        #_4 {
+            font-size: 40px;
+            color: rgb(128, 133, 133);
+            margin-top: 524px;
+            margin-left: 100px;
+        }
+}
+@media screen and (min-width: 375px) and (max-width: 400px) {
+    .h {
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        position: absolute;
+        white-space: nowrap;
+
+    }
+    .a_header {
+        padding-top: 0%;
+        color:white;
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 240px;
+        margin-top: 84px;
+        position: absolute;
+        display: inline-block;
+    }
+    #info {
+        margin-left: 380px;
+    }
+    #info::after {
+        content: "      о нас";
+    }
+    #main {
+        border-bottom: 2px orange solid;
+        margin-right: 40px;
+    }
+    #con {
+        margin-left: 580px;
+    }
+    input {
+        position: absolute;
+        margin-top: 87px;
+        margin-left: 750px;
+    }
+    #logo {
+        width: 100px;
+        height: 80px;
+        margin-top: 70px;
+        margin-left: 80px;
+        margin-right: 130px;
+        position: relative;
+        position: absolute;
+       
+    }
+    #_1 {
+        color: rgb(230, 216, 216);
+        margin-top: 266px;
+        margin-left: 40px;
+        position: absolute;
+        }
+        #_2 {
+            color: orange;
+            margin-top: 340px;
+            margin-left: 40px;
+        }
+        #_3 {
+            color: rgb(230, 216, 216);
+            margin-top: 410px;
+            margin-left: 40px;
+        }
+        #_4 {
+            font-size: 40px;
+            color: rgb(128, 133, 133);
+            margin-top: 474px;
+            margin-left: 5px;
+        }
+        #__1 {
+            margin-left: 120px;
+            margin-top: 540px;
+            margin-bottom: 20px;
+        }
+        #__2 {
+            margin-left: 370px;
+            margin-top: 540px;
+        }
+        #__3 {
+            margin-left: 620px;
+            margin-top: 540px;
+        }
+}
+@media screen and (max-width: 300px) {
+    .h {
+        font-size: 80px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        position: absolute;
+        white-space: nowrap;
+
+    }
+    .a_header {
+        padding-top: 0%;
+        color:white;
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 240px;
+        margin-top: 84px;
+        position: absolute;
+        display: inline-block;
+    }
+    #info {
+        margin-left: 380px;
+    }
+    #info::after {
+        content: "      о нас";
+    }
+    #main {
+        border-bottom: 2px orange solid;
+        margin-right: 40px;
+    }
+    #con {
+        margin-left: 580px;
+    }
+    input {
+        position: absolute;
+        margin-top: 87px;
+        margin-left: 750px;
+    }
+    #logo {
+        width: 100px;
+        height: 80px;
+        margin-top: 70px;
+        margin-left: 80px;
+        margin-right: 130px;
+        position: relative;
+        position: absolute;
+       
+    }
+    #_1 {
+        color: rgb(230, 216, 216);
+        margin-top: 266px;
+        margin-left: 100px;
+        position: absolute;
+        }
+        #_2 {
+            color: orange;
+            margin-top: 340px;
+            margin-left: 80px;
+        }
+        #_3 {
+            color: rgb(230, 216, 216);
+            margin-top: 410px;
+            margin-left: 60px;
+        }
+        #_4 {
+            font-size: 40px;
+            color: rgb(128, 133, 133);
+            margin-top: 474px;
+            margin-left: 0px;
+        }
+        #__1 {
+            margin-left: 120px;
+            margin-top: 540px;
+            margin-bottom: 20px;
+        }
+        #__2 {
+            margin-left: 370px;
+            margin-top: 540px;
+        }
+        #__3 {
+            margin-left: 620px;
+            margin-top: 540px;
+        }
+}
+@media screen and (min-width: 2001px) {
+    html {
+        background-color: rgb(54, 51, 54)
+    }
+    #logo {
+        width: 100px;
+        height: 80px;
+        margin-top: 70px;
+        margin-left: 177px;
+        margin-right: 130px;
+        position: relative;
+        position: absolute;
+       
+    }
+    .a_header {
+        padding-top: 0%;
+        color:white;
+        font-size: 25px;
+        text-decoration: none;
+        margin-left: 340px;
+        margin-top: 84px;
+        position: absolute;
+        
+        
+    }
+    #info {
+        margin-left: 580px;
+    }
+    #main {
+        border-bottom: 2px orange solid;
+    }
+    #con {
+        margin-left: 780px;
+    }
+    input {
+        position: absolute;
+        margin-top: 87px;
+        margin-left: 1000px;
+    }
+    .h {
+        font-size: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+        position: absolute;
+        white-space: nowrap;
+    }
+    #_1 {
+    color: rgb(230, 216, 216);
+    margin-top: 254px;
+    margin-left: 250px;
+    }
+    #_2 {
+        color: orange;
+        margin-top: 354px;
+        margin-left: 235px;
+    }
+    #_3 {
+        color: rgb(230, 216, 216);
+        margin-top: 454px;
+        margin-left: 210px;
+    }
+    #_4 {
+        font-size: 40px;
+        color: rgb(128, 133, 133);
+        margin-top: 544px;
+        margin-left: 180px;
+    }
+    .photos {
+        width: 350px;
+        height: 250px;
+        position: absolute;
+        border: 4px orange solid;
+    }
+    .a_header:hover {
+        font-size: 26px;
+        color: rgb(184, 150, 95);
+    
+    }
+    /*Фотографии*/
+    #__1 {
+        margin-left: 1500px;
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    #__2 {
+        margin-left: 1500px;
+        margin-top: 380px;
+    }
+    #__3 {
+        margin-left: 1500px;
+        margin-top: 700px;
+    }
+}
