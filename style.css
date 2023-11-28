@@ -419,19 +419,19 @@
         margin-left: 1500px;
         margin-top: 70px;
         margin-bottom: 20px;
-        animation: infinite 20s anim_1;
+        animation: infinite 20s anim__1;
     }
     #__2 {
         margin-left: 1500px;
         margin-top: 310px;
-        animation: infinite 20s anim_2;
+        animation: infinite 20s anim__2;
     }
     #__3 {
         margin-left: 1500px;
         margin-top: 550px;
-        animation: infinite 20s anim_3;
+        animation: infinite 20s anim__3;
     }
-    @keyframes anim_1 {
+    @keyframes anim__1 {
         0% {
             content:url(фото_1.jpeg)
         }
@@ -442,7 +442,7 @@
             content:url(фото_3.jpeg)   
         }
     }
-    @keyframes anim_2 {
+    @keyframes anim__2 {
         0% {
             content:url(фото_4.jpeg)
         }
@@ -453,7 +453,7 @@
             content:url(фото_6\ .jpeg)   
         }   
     }
-    @keyframes anim_3 {
+    @keyframes anim__3 {
         0% {
             content:url(фото_7.jpeg)
         }
